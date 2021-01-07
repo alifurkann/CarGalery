@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarGalery.DataAccess", "Car
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarGalery.Business", "CarGalery.Business\CarGalery.Business.csproj", "{5EFCDDD6-E296-4396-AE71-FFA3B67AE2F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarGalery.ConsoleApp", "CarGalery.ConsoleApp\CarGalery.ConsoleApp.csproj", "{2A853B07-8ECD-4FD5-BA6E-44EC12E7E62E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5EFCDDD6-E296-4396-AE71-FFA3B67AE2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EFCDDD6-E296-4396-AE71-FFA3B67AE2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EFCDDD6-E296-4396-AE71-FFA3B67AE2F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A853B07-8ECD-4FD5-BA6E-44EC12E7E62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A853B07-8ECD-4FD5-BA6E-44EC12E7E62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A853B07-8ECD-4FD5-BA6E-44EC12E7E62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A853B07-8ECD-4FD5-BA6E-44EC12E7E62E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -17,7 +17,7 @@ namespace CarGalery.Entities.Concrete
 
         }
 
-        public Car(string model, decimal price)
+        public Car(int carId ,string model, decimal price)
         {
             Model = model;
             Price = price;
@@ -25,7 +25,7 @@ namespace CarGalery.Entities.Concrete
 
         public override string ToString()
         {
-            return $"{Model,-15} {Price,-15}";
+            return $"{CarId,-5} {Model,-15} {Price,-15}";
         }
     }
 
