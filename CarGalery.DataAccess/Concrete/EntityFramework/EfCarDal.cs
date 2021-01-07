@@ -6,7 +6,8 @@ using System.Text;
 
 namespace CarGalery.DataAccess.Concrete.EntityFramework
 {
-    public class EfCarDal : EfRepositoryBase<Car, CarGaleryContext>,
+    public class EfCarDal : 
+        EfRepositoryBase<Car, CarGaleryContext>,
         ICarDal
     {
 
